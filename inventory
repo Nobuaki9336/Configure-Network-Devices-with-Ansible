@@ -1,0 +1,21 @@
+[cpe]
+R1  loopback_id=1 location=SF
+R3  loopback_id=3 location=LA
+
+[core]
+R2  loopback_id=2
+
+[usa:children]
+cpe
+core
+
+[all:vars]
+ansible_ssh_pass=cisco
+ansible_user=cisco
+ansible_network_os=ios
+
+[cpe:vars]
+location=California
+
+[core:vars]
+location=NYC
