@@ -1,4 +1,4 @@
-# Cisco Network Configuration Automation with Ansible
+# Network Configuration Automation with Ansible
 
 This repository demonstrates how to orchestrate and automate Cisco IOS-XE network devices using **Ansible Playbooks**. It showcases structured configuration management across different device groups (CPE and Core), focusing on Access Control Lists (ACLs), dynamic interface provisioning, and global SNMP settings.
 
